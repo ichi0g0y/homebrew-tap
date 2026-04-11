@@ -2,27 +2,27 @@ class Ghx < Formula
   desc "A thin wrapper around gh for multi-account GitHub usage"
   homepage "https://github.com/ichi0g0y/ghx"
   license "MIT"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/ichi0g0y/ghx/releases/download/v0.1.0/ghx-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "bd9a40560bd653015497a87f5328951ac2aa4d1bff1c87ffb16f145eebb93983"
+      url "https://github.com/ichi0g0y/ghx/releases/download/v0.2.0/ghx-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "738eab06428ca3df1097715d09906df8b7d44cdeb5eb67c6e5bf24e5780b1f2a"
     end
     on_intel do
-      url "https://github.com/ichi0g0y/ghx/releases/download/v0.1.0/ghx-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "553e20e2d31ed170b660ee061d024a1c4c0c0d1dcc312c4249846252266ec566"
+      url "https://github.com/ichi0g0y/ghx/releases/download/v0.2.0/ghx-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b8fb1be8e5f715f72136f587b3ffae7c625850e095fda601c31995814f9be91e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ichi0g0y/ghx/releases/download/v0.1.0/ghx-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bc8bc719221d4fe6f6fb7e832ccb21141ba68da2877afbb59300890f9ed1f9b3"
+      url "https://github.com/ichi0g0y/ghx/releases/download/v0.2.0/ghx-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "8768413ea7ad0f02ae2485ca833bd3e22546a556c396451e3496f259ee316734"
     end
     on_intel do
-      url "https://github.com/ichi0g0y/ghx/releases/download/v0.1.0/ghx-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "19fabb0216a0ac6a6d1685f46892072716062f0b5bb505e7451ee9e7e613854e"
+      url "https://github.com/ichi0g0y/ghx/releases/download/v0.2.0/ghx-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "03aa68f1bb3022deb916397677d55f5a7c64eff3b4fe7c6f8522f0da31878f7e"
     end
   end
 
