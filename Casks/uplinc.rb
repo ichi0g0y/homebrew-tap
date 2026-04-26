@@ -1,6 +1,6 @@
 cask "uplinc" do
-  version "0.1.0"
-  sha256 "716ef06224511cf7b9efcc6049aa33c6798c9494211f63c27550d478d853e95a"
+  version "0.1.1"
+  sha256 "81318336cbe9a0262fd3776c96560059643566e0d894a752acafc4f6721c53fd"
 
   url "https://github.com/ichi0g0y/UplinC/releases/download/v#{version}/UplinC-#{version}.zip"
   name "UplinC"
@@ -10,6 +10,12 @@ cask "uplinc" do
   depends_on macos: ">= :ventura"
 
   app "UplinC.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/UplinC.app"],
+                   sudo: false
+  end
 
   uninstall quit: "local.uplinc"
 
