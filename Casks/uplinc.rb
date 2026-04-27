@@ -1,6 +1,6 @@
 cask "uplinc" do
-  version "0.1.6"
-  sha256 "ab8f1de23e0d7451350fcdf38779a5b263cdfdd342ee9a023fd96b9cf1b1140e"
+  version "0.1.7"
+  sha256 "0cf882f58c2394e358a393465cb4cf4f53c3368b11260057b08b61dd5e3f90bd"
 
   url "https://github.com/ichi0g0y/UplinC/releases/download/v#{version}/UplinC-#{version}.zip"
   name "UplinC"
@@ -21,10 +21,8 @@ cask "uplinc" do
 
   caveats do
     <<~EOS
-      UplinC is installed as an app only.
-
-      To start it at login, use the source checkout:
-        make install
+      To start UplinC automatically at login, open the menu and enable
+      "Launch at Login".
     EOS
   end
 end
