@@ -1,6 +1,6 @@
 cask "uplinc" do
-  version "0.1.10"
-  sha256 "21e290b2b1380c4713910b4abacaea3f395b636b339567f1a5bf5fcb1f144bd0"
+  version "0.1.11"
+  sha256 "10e7501f059fe18e6312f8e5cf81affc98ea1c1bb6b947b346689fd4176b7b76"
 
   url "https://github.com/ichi0g0y/UplinC/releases/download/v#{version}/UplinC-#{version}.zip"
   name "UplinC"
