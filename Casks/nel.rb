@@ -1,6 +1,6 @@
 cask "nel" do
   version "0.1.0"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  sha256 "1494e2ab7bc0391b934f0e7a25e6612075da288a8979eb37bf802fce6693a324"
 
   url "https://github.com/ichi0g0y/Nel/releases/download/v#{version}/Nel-#{version}.dmg"
   name "Nel"
