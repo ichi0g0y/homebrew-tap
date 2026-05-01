@@ -1,6 +1,6 @@
 cask "nel" do
-  version "0.1.0"
-  sha256 "1494e2ab7bc0391b934f0e7a25e6612075da288a8979eb37bf802fce6693a324"
+  version "0.1.1"
+  sha256 "cb4c1055e2218db9de4a10c188d3b166840d52c305e3a1e8264a210cd03b2d6b"
 
   url "https://github.com/ichi0g0y/Nel/releases/download/v#{version}/Nel-#{version}.dmg"
   name "Nel"
@@ -31,3 +31,4 @@ cask "nel" do
     "~/Library/Saved Application State/com.ichi0g0y.Nel.savedState",
   ]
 end
+
